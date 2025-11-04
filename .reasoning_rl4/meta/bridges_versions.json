@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "created_at": "2025-11-04T10:00:00Z",
+    "last_updated": "2025-11-04T10:03:40.393969Z",
+    "schema_version": "1.0.0"
+  },
+  "bridges": {
+    "pami": {
+      "repo_commit": null,
+      "bridge_version": "1.0.0",
+      "avg_duration_ms": 1,
+      "result_hash": "4b227777",
+      "last_used": "2025-11-04T10:03:40.056049Z",
+      "status": "active"
+    },
+    "merlion": {
+      "repo_commit": null,
+      "bridge_version": "1.0.0",
+      "avg_duration_ms": 1,
+      "result_hash": "006c189d",
+      "last_used": "2025-11-04T10:03:40.393679Z",
+      "status": "active"
+    },
+    "hyperts": {
+      "repo_commit": null,
+      "bridge_version": "1.0.0",
+      "avg_duration_ms": 0,
+      "result_hash": "6b86b273",
+      "last_used": "2025-11-04T08:36:59.886517Z",
+      "status": "active"
+    },
+    "fpgrowth": {
+      "repo_commit": null,
+      "bridge_version": "1.0.0",
+      "avg_duration_ms": 0,
+      "result_hash": "7a61b537",
+      "last_used": "2025-11-04T08:36:59.930473Z",
+      "status": "active"
+    },
+    "spmf": {
+      "repo_commit": null,
+      "bridge_version": "1.0.0",
+      "avg_duration_ms": null,
+      "result_hash": null,
+      "last_used": null,
+      "status": "not_installed",
+      "requires": "Java 11+"
+    }
+  }
+}

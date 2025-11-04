@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# RL4 Runtime Data (training data - too large for git)
+.reasoning_rl4/logs/
+.reasoning_rl4/tmp/
+.reasoning_rl4/ledger/
+.reasoning_rl4/cycles/
+.reasoning_rl4/archives/
+.reasoning_rl4/patterns.jsonl
+.reasoning_rl4/correlations.jsonl
+.reasoning_rl4/forecasts.jsonl
+
+# Keep structure files only
+!.reasoning_rl4/kernel/
+!.reasoning_rl4/meta/
+!.reasoning_rl4/scripts/
+
+# ML modules (external repos - too large)
+ml-modules/
+
+# Temporary repos
+tmp-repos/
+
+# Dataset corpus (git repos - too large)
+datasets/corpus/
+
+# Environment
+.env
+.env.local

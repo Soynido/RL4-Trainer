@@ -1,0 +1,52 @@
+{
+  "repo": "SqueezeAILab-LLM2LLM",
+  "events": [
+    {
+      "t": 0,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "63f0b01f3bb4a1482f295da09f1054b6da7359c9",
+      "timestamp": "2024-03-21T02:04:55-07:00"
+    },
+    {
+      "t": 1,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "b5a7ca08294cb2c7d4b2daa15611abedaadaf9ec",
+      "timestamp": "2024-03-24T22:07:11-07:00"
+    },
+    {
+      "t": 2,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "bcbcb1ae767b9d2f4565d44295e08d10670a8c1d",
+      "timestamp": "2024-03-24T22:33:34-07:00"
+    }
+  ],
+  "totalCommits": 3,
+  "duration_ms": 0
+}

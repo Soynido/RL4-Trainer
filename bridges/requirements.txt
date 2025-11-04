@@ -1,0 +1,23 @@
+# Bridges ML Requirements pour RL4-Trainer
+# Python 3.9+ requis
+
+# PAMI - Pattern Mining
+pami>=2024.2.1
+
+# Merlion - Time Series Analysis & Causality
+salesforce-merlion>=2.0.4
+
+# HyperTS - Time Series Forecasting
+hyperts>=0.2.8
+
+# FP-Growth - Frequent Pattern Mining (optimisation)
+pyfpgrowth>=1.0
+
+# Dépendances communes
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Performance & monitoring
+psutil>=5.9.0
+

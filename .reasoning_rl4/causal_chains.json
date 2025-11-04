@@ -1,0 +1,967 @@
+[
+  {
+    "id": "other>other>other",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "other",
+        "position": 2
+      }
+    ],
+    "strength": 1,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 159
+  },
+  {
+    "id": "other>dependency>feature>test>documentation",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "feature",
+        "position": 2
+      },
+      {
+        "pattern": "test",
+        "position": 3
+      },
+      {
+        "pattern": "documentation",
+        "position": 4
+      }
+    ],
+    "strength": 0.53,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>feature>test>documentation>other",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "feature",
+        "position": 1
+      },
+      {
+        "pattern": "test",
+        "position": 2
+      },
+      {
+        "pattern": "documentation",
+        "position": 3
+      },
+      {
+        "pattern": "other",
+        "position": 4
+      }
+    ],
+    "strength": 0.53,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>dependency>feature>security>test",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "feature",
+        "position": 2
+      },
+      {
+        "pattern": "security",
+        "position": 3
+      },
+      {
+        "pattern": "test",
+        "position": 4
+      }
+    ],
+    "strength": 0.53,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "test>documentation>dependency>other",
+    "chain": [
+      {
+        "pattern": "test",
+        "position": 0
+      },
+      {
+        "pattern": "documentation",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      },
+      {
+        "pattern": "other",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "feature>test>documentation>other",
+    "chain": [
+      {
+        "pattern": "feature",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "documentation",
+        "position": 2
+      },
+      {
+        "pattern": "other",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>documentation>dependency>test",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "documentation",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      },
+      {
+        "pattern": "test",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "documentation>other>dependency>test",
+    "chain": [
+      {
+        "pattern": "documentation",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      },
+      {
+        "pattern": "test",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>dependency>test>documentation",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "test",
+        "position": 2
+      },
+      {
+        "pattern": "documentation",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>test>documentation>other",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "documentation",
+        "position": 2
+      },
+      {
+        "pattern": "other",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>dependency>feature>security",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "feature",
+        "position": 2
+      },
+      {
+        "pattern": "security",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>feature>security>test",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "feature",
+        "position": 1
+      },
+      {
+        "pattern": "security",
+        "position": 2
+      },
+      {
+        "pattern": "test",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>dependency>test>feature",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "test",
+        "position": 2
+      },
+      {
+        "pattern": "feature",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>test>feature>other",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "feature",
+        "position": 2
+      },
+      {
+        "pattern": "other",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "security>other>feature>test",
+    "chain": [
+      {
+        "pattern": "security",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "feature",
+        "position": 2
+      },
+      {
+        "pattern": "test",
+        "position": 3
+      }
+    ],
+    "strength": 0.5,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>other>documentation",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "documentation",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>documentation>dependency",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "documentation",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "documentation>dependency>other",
+    "chain": [
+      {
+        "pattern": "documentation",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "other",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>dependency>test",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "test",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>test>other",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "other",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "test>dependency>other",
+    "chain": [
+      {
+        "pattern": "test",
+        "position": 0
+      },
+      {
+        "pattern": "dependency",
+        "position": 1
+      },
+      {
+        "pattern": "other",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>test>documentation",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "documentation",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "test>other>documentation",
+    "chain": [
+      {
+        "pattern": "test",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "documentation",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "test>other>dependency",
+    "chain": [
+      {
+        "pattern": "test",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "feature>security>test",
+    "chain": [
+      {
+        "pattern": "feature",
+        "position": 0
+      },
+      {
+        "pattern": "security",
+        "position": 1
+      },
+      {
+        "pattern": "test",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "test>security>other",
+    "chain": [
+      {
+        "pattern": "test",
+        "position": 0
+      },
+      {
+        "pattern": "security",
+        "position": 1
+      },
+      {
+        "pattern": "other",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "security>other>dependency",
+    "chain": [
+      {
+        "pattern": "security",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>other>test",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "test",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>test>performance",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "performance",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "test>other>performance",
+    "chain": [
+      {
+        "pattern": "test",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "performance",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>performance>dependency",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "performance",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "performance>other>dependency",
+    "chain": [
+      {
+        "pattern": "performance",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "test>feature>other",
+    "chain": [
+      {
+        "pattern": "test",
+        "position": 0
+      },
+      {
+        "pattern": "feature",
+        "position": 1
+      },
+      {
+        "pattern": "other",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "feature>test>other",
+    "chain": [
+      {
+        "pattern": "feature",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "other",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>test>dependency",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "dependency>other>security",
+    "chain": [
+      {
+        "pattern": "dependency",
+        "position": 0
+      },
+      {
+        "pattern": "other",
+        "position": 1
+      },
+      {
+        "pattern": "security",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>feature>test",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "feature",
+        "position": 1
+      },
+      {
+        "pattern": "test",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "feature>test>dependency",
+    "chain": [
+      {
+        "pattern": "feature",
+        "position": 0
+      },
+      {
+        "pattern": "test",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": "other>security>dependency",
+    "chain": [
+      {
+        "pattern": "other",
+        "position": 0
+      },
+      {
+        "pattern": "security",
+        "position": 1
+      },
+      {
+        "pattern": "dependency",
+        "position": 2
+      }
+    ],
+    "strength": 0.47000000000000003,
+    "avgLag": 1,
+    "repos": [
+      "TriPSs-nestjs-query"
+    ],
+    "frequency": 1
+  }
+]

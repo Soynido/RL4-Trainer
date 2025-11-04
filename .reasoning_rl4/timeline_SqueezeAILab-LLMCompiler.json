@@ -1,0 +1,802 @@
+{
+  "repo": "SqueezeAILab-LLMCompiler",
+  "events": [
+    {
+      "t": 0,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "dca77b2197f89a20e505545a1458ae4a2ff04571",
+      "timestamp": "2023-12-07T23:30:13-08:00"
+    },
+    {
+      "t": 1,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "a7a829178f9053023454d6116591e47b55be9590",
+      "timestamp": "2023-12-09T12:23:11-08:00"
+    },
+    {
+      "t": 2,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "f25e419a9798a397779b6b399577900df039198a",
+      "timestamp": "2023-12-09T12:30:34-08:00"
+    },
+    {
+      "t": 3,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "cb0716fcdc49edcf047fe5a3f20f3be5d982f134",
+      "timestamp": "2023-12-09T12:31:49-08:00"
+    },
+    {
+      "t": 4,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "4ca99c0a63e1e525afa6c52d413473b010d65e22",
+      "timestamp": "2023-12-09T12:32:27-08:00"
+    },
+    {
+      "t": 5,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "ad7c97a5691c13191853c91402bc00e9e7532396",
+      "timestamp": "2023-12-12T00:56:14+09:00"
+    },
+    {
+      "t": 6,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "86b0720ea3d64cc1d5d918c61cfbee81a9891827",
+      "timestamp": "2023-12-11T11:20:28-05:00"
+    },
+    {
+      "t": 7,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "8f98229f110fe64075b7ead0de6493f760327d9b",
+      "timestamp": "2023-12-12T01:27:58+09:00"
+    },
+    {
+      "t": 8,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "b9cf8d8ac68a7612a7cd6b9aa976aeecdde32eed",
+      "timestamp": "2023-12-12T01:32:06+09:00"
+    },
+    {
+      "t": 9,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "9d6704a5f6bc33586d467edf792b2390ebc095d2",
+      "timestamp": "2023-12-29T17:01:43-08:00"
+    },
+    {
+      "t": 10,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "821b7caac7dd38b52cb45fea4fa19c3d7fb1f6c8",
+      "timestamp": "2023-12-30T10:02:07+09:00"
+    },
+    {
+      "t": 11,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "1e34a9e02ee85e0c89ce9ee4693074cb9f2e934c",
+      "timestamp": "2024-01-06T17:41:37+09:00"
+    },
+    {
+      "t": 12,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "1bf047b58b58acf9a3e19b069fc9804bdb7378b1",
+      "timestamp": "2024-01-06T17:45:25+09:00"
+    },
+    {
+      "t": 13,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "60911897957e8aaa79ecc97a5099dab3b1a7a78a",
+      "timestamp": "2024-01-06T17:53:58+09:00"
+    },
+    {
+      "t": 14,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "43a4ac40d32bab7161a3426c2d20a4c75528b499",
+      "timestamp": "2024-01-06T08:37:01-08:00"
+    },
+    {
+      "t": 15,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "148928c59181f964249e5fbd5d4e0ca1e4d0bdbd",
+      "timestamp": "2024-01-11T02:39:56-08:00"
+    },
+    {
+      "t": 16,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "3aa00448d3a90bfa86135d7bdbc1cf74248b5bff",
+      "timestamp": "2024-01-11T19:40:37+09:00"
+    },
+    {
+      "t": 17,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "e4532387a32d8e68368446813008e23e456ab5e5",
+      "timestamp": "2024-01-11T02:41:12-08:00"
+    },
+    {
+      "t": 18,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "031ac1c93f74a5e0c9ea5035b24ddd5dfabb3fb0",
+      "timestamp": "2024-01-11T02:52:57-08:00"
+    },
+    {
+      "t": 19,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "f93af134a8c1c61f85376078ccee8204ce9db357",
+      "timestamp": "2024-01-14T15:58:23-08:00"
+    },
+    {
+      "t": 20,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "58057579b55fec5b9815e65a13116029168f1c83",
+      "timestamp": "2024-01-14T15:58:51-08:00"
+    },
+    {
+      "t": 21,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "d957b345bb594a26ca3bdd11d5f36dd244748854",
+      "timestamp": "2024-01-14T16:53:21-08:00"
+    },
+    {
+      "t": 22,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "b157cf7f5640bbd8235853a1c67211cf4e9a6751",
+      "timestamp": "2024-01-16T01:25:47-08:00"
+    },
+    {
+      "t": 23,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "00f7dbc5fca77045abbe48789832a431436f4948",
+      "timestamp": "2024-01-16T16:40:36-08:00"
+    },
+    {
+      "t": 24,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "8c9448eb41d535ab7d361664d95dd4f08cb8de9a",
+      "timestamp": "2024-01-17T08:01:02-08:00"
+    },
+    {
+      "t": 25,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "f407ed293a51d58a0d390bdfe26f5602c9a96f94",
+      "timestamp": "2024-01-17T10:08:08-08:00"
+    },
+    {
+      "t": 26,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "30f5199d8747a0405135e7321d0a528a30a3935d",
+      "timestamp": "2024-01-17T10:13:56-08:00"
+    },
+    {
+      "t": 27,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "8befce26ab2e0b371ac2b556e5cd436e82ed8537",
+      "timestamp": "2024-01-17T10:14:00-08:00"
+    },
+    {
+      "t": 28,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "34676dbe08fa9e55d483155706338302f0d9ff96",
+      "timestamp": "2024-01-17T10:14:25-08:00"
+    },
+    {
+      "t": 29,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "754eedc25404511e77a065f9c6d258537895e2cc",
+      "timestamp": "2024-01-17T10:17:02-08:00"
+    },
+    {
+      "t": 30,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "a84d8d2b27bb0cd7757cd61001a1e3d2a4ea5f99",
+      "timestamp": "2024-01-17T10:27:37-08:00"
+    },
+    {
+      "t": 31,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "05925fa2121bdf743a76f4f423ed6628594ce7fb",
+      "timestamp": "2024-01-17T10:28:37-08:00"
+    },
+    {
+      "t": 32,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "8f84e322945b8e33748f8333756b88832b582e85",
+      "timestamp": "2024-01-17T10:29:10-08:00"
+    },
+    {
+      "t": 33,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "ce6b996b49daa1083ffd75c2b3131e3c20a2269d",
+      "timestamp": "2024-01-25T11:40:22-08:00"
+    },
+    {
+      "t": 34,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "347125c2e3142e411bf43897b00a5b7cd34eeed1",
+      "timestamp": "2024-01-25T11:40:43-08:00"
+    },
+    {
+      "t": 35,
+      "patterns": [
+        "performance"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "67918e45e5060856bfd73dc1a441d0be445038cf",
+      "timestamp": "2024-01-27T13:55:50-08:00"
+    },
+    {
+      "t": 36,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "670ed234d709da96ab0fb28f5d9ae97bfc9a6468",
+      "timestamp": "2024-01-27T13:57:31-08:00"
+    },
+    {
+      "t": 37,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "e7e3d07bc3d3e311e3d20c416a16d0adfc18ab50",
+      "timestamp": "2024-01-27T13:58:58-08:00"
+    },
+    {
+      "t": 38,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "13cfa162e44a72531b29dc0804bcbf3224f2555c",
+      "timestamp": "2024-01-28T01:22:14-08:00"
+    },
+    {
+      "t": 39,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "17bf2eafb63ccd3c8943efb3064f7f49e2d2214e",
+      "timestamp": "2024-01-28T01:22:54-08:00"
+    },
+    {
+      "t": 40,
+      "patterns": [
+        "performance"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "deed19587ae6d1066784a266b5f3179d42d16adc",
+      "timestamp": "2024-01-28T01:23:19-08:00"
+    },
+    {
+      "t": 41,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "0224d44a823013ff01f20a4a762c393d26ec2868",
+      "timestamp": "2024-02-13T12:12:05-08:00"
+    },
+    {
+      "t": 42,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "a2b1bd3a4d46f1b75b4bd24f307ddf2bd3cd5b21",
+      "timestamp": "2024-02-13T12:14:00-08:00"
+    },
+    {
+      "t": 43,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "bbbbcd03bb4ae58e3290dae2c7e33158127f8fd6",
+      "timestamp": "2024-03-14T15:46:24-07:00"
+    },
+    {
+      "t": 44,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "ffb29cc3c1e13ec58f145b940f117672b2ee8b1f",
+      "timestamp": "2024-03-15T07:46:59+09:00"
+    },
+    {
+      "t": 45,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "d5e94d11a7d0a4e0667380bacfa8663b7bdea52f",
+      "timestamp": "2024-03-23T18:52:54-07:00"
+    },
+    {
+      "t": 46,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "0905105c256e490aadd0b413d0ae2f7bd41ec4cc",
+      "timestamp": "2024-03-23T18:55:55-07:00"
+    },
+    {
+      "t": 47,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "9956889784c24ae6b54cb9c386fbd5e11775018a",
+      "timestamp": "2024-03-24T10:59:00+09:00"
+    },
+    {
+      "t": 48,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "47c65f7a3787c95fe001002ed12b31e1a9277f1f",
+      "timestamp": "2024-04-14T18:08:12-07:00"
+    },
+    {
+      "t": 49,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "cf78be7dacd409b19424beb0f41ef6d61d2b220b",
+      "timestamp": "2024-04-15T10:09:37+09:00"
+    },
+    {
+      "t": 50,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "9cf8c6f6054d58e9a6b91ae90d2128d517ab3c65",
+      "timestamp": "2024-07-07T21:28:18-07:00"
+    },
+    {
+      "t": 51,
+      "patterns": [
+        "documentation"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "b58b42dc5436f3feca27bf88a64a17272942d547",
+      "timestamp": "2024-07-09T21:37:48-07:00"
+    },
+    {
+      "t": 52,
+      "patterns": [
+        "other"
+      ],
+      "astFeatures": {
+        "functions": 0,
+        "classes": 0,
+        "dependencies": 0,
+        "calls": 0,
+        "untested": 0
+      },
+      "commit": "a00c9d35507507da70e8c637eee64efc8c1857ae",
+      "timestamp": "2024-07-09T21:39:31-07:00"
+    }
+  ],
+  "totalCommits": 53,
+  "duration_ms": 0
+}

@@ -1,0 +1,22 @@
+{
+  "totalRepos": 1,
+  "successful": 1,
+  "failed": 0,
+  "results": [
+    {
+      "repo": "0nutation-SpeechGPT",
+      "success": true,
+      "stats": {
+        "events": 51,
+        "patterns": 51,
+        "correlations": 653,
+        "forecasts": 1,
+        "adrs": 0,
+        "duration_ms": 15
+      }
+    }
+  ],
+  "totalDuration_ms": 5821,
+  "startTime": "2025-11-04T01:00:23.510Z",
+  "endTime": "2025-11-04T01:00:29.331Z"
+}

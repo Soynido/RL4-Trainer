@@ -1,0 +1,68 @@
+{
+  "name": "rl4-trainer",
+  "version": "1.0.0",
+  "description": "Workspace d'entraînement autonome pour le Reasoning Layer 4",
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "fetch-repos": "bash scripts/fetch-repos.sh",
+    "validate-dataset": "bash scripts/validate-dataset.sh",
+    "replay": "node dist/trainer/replayGitHistory.js",
+    "train": "node dist/trainer/trainBatch.js",
+    "analyze": "node dist/metrics/MetricsEngine.js --analyze",
+    "kernel": "node dist/kernel/RL4KernelTrainer.js",
+    "dashboard": "tsc scripts/dashboard.ts --outDir dist/scripts && node dist/scripts/dashboard.js",
+    "validate": "bash tests/validate-trainer.sh",
+    "test:ast": "bash tests/test-ast.sh",
+    "test:ast:enriched": "npm run build --silent && npx tsx tests/test-ast-enriched.ts",
+    "test:pattern-v2": "npm run build --silent && npx tsx tests/test-pattern-learning-v2.ts",
+    "test:correlation-v2": "npm run build --silent && npx tsx tests/test-correlation-v2.ts",
+    "consolidate": "node dist/scripts/consolidate.js",
+    "post-train": "npm run dashboard && npm run validate",
+    "compact": "node dist/scripts/compact-ledger.js",
+    "merge-kernels": "node dist/scripts/merge-kernel-states.js",
+    "auto-dump": "node dist/trainer/autoDumpManager.js",
+    "generate-summary": "node dist/scripts/generate-summary.js",
+    "train-all": "bash scripts/trainAll.sh",
+    "guard": "bash scripts/guard.sh",
+    "watch-guard": "bash scripts/watch-guard.sh",
+    "night-train": "bash scripts/night-train.sh",
+    "export-kernel": "npm run consolidate && node -e \"require('./dist/kernel/CognitiveKernel.js').CognitiveKernel.prototype.export()\"",
+    "clean": "rm -rf dist .reasoning_rl4/ledger/* .reasoning_rl4/metrics/*",
+    "clean-ledgers": "bash scripts/clean-old-ledgers.sh",
+    "bootstrap-ml": "bash scripts/bootstrap-ml-modules.sh",
+    "test:bridges": "npm run build --silent && npx tsx tests/test-bridges-ml.ts",
+    "train:ml": "npm run train -- --max-repos 10",
+    "check-phase4": "bash scripts/activate-phase4.sh --check",
+    "activate-phase4": "bash scripts/activate-phase4.sh",
+    "watch-phases": "bash scripts/watch-phase-transition.sh",
+    "check-phase2": "bash scripts/watch-phase-transition.sh",
+    "dashboard": "bash .reasoning_rl4/scripts/progress-dashboard.sh",
+    "live": "bash .reasoning_rl4/scripts/live-progress.sh"
+  },
+  "keywords": [
+    "reasoning",
+    "machine-learning",
+    "git-analysis",
+    "cognitive-engines"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^8.46.3",
+    "chalk": "^5.3.0",
+    "p-limit": "^5.0.0",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "simple-git": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}

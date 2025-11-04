@@ -1,0 +1,258 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-11-04T10:04:11.272Z",
+  "batches": 1,
+  "totalRepos": 499,
+  "totalCycles": 759,
+  "consolidated": {
+    "patterns": [
+      {
+        "type": "other",
+        "confidence": 33.312252964426875,
+        "frequency": 25284,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      },
+      {
+        "type": "documentation",
+        "confidence": 8.79973649538867,
+        "frequency": 6679,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      },
+      {
+        "type": "dependency",
+        "confidence": 3.476943346508564,
+        "frequency": 2639,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      },
+      {
+        "type": "feature",
+        "confidence": 1.3096179183135706,
+        "frequency": 994,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      },
+      {
+        "type": "test",
+        "confidence": 1.2108036890645586,
+        "frequency": 919,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      },
+      {
+        "type": "performance",
+        "confidence": 0.7061923583662714,
+        "frequency": 536,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      },
+      {
+        "type": "security",
+        "confidence": 0.5783926218708827,
+        "frequency": 439,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      },
+      {
+        "type": "bugfix",
+        "confidence": 0.05006587615283267,
+        "frequency": 38,
+        "repos": [
+          "0xTheProDev-fastapi-clean-example",
+          "100devs-rap-names-express",
+          "0ssamaak0-MackingJAI",
+          "100devs-todo-list-express",
+          "0nutation-SpeechGPT",
+          "1rgs-claude-code-proxy",
+          "101dotxyz-GPTeam",
+          "3choff-docs-miner",
+          "0xgasless-agentkit",
+          "4OH4-kubernetes-fastapi"
+        ]
+      }
+    ],
+    "metaADRs": [
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "1rgs-claude-code-proxy"
+      },
+      {
+        "id": "adr-forecast-pattern-forecast-tests",
+        "priority": "high",
+        "repo": "3choff-docs-miner"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "3choff-docs-miner"
+      },
+      {
+        "id": "adr-forecast-pattern-forecast-tests",
+        "priority": "high",
+        "repo": "0xgasless-agentkit"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "0xgasless-agentkit"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "3rd-promptpack"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "11cafe-local-manus"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "ABexit-ASR-LLM-TTS"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "567-labs-instructor"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "Afaneor-fastapi-docker-boilerplate"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "Agent-on-the-Fly-Memento"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "AI-Hypercomputer-maxtext"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "AgentEvaluation-NHD"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "AlmogBaku-openai-streaming"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "AmberSahdev-Open-Interface"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "AntonOsika-gpt-engineer"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "ArjanCodes-2023-fastapi"
+      },
+      {
+        "id": "adr-forecast-pattern-forecast-tests",
+        "priority": "high",
+        "repo": "Alwurts-Chatsemble"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "Alwurts-Chatsemble"
+      },
+      {
+        "id": "adr-pattern-notests",
+        "priority": "high",
+        "repo": "ArkerLabs-event-sourcing-nestjs"
+      }
+    ]
+  },
+  "statistics": {
+    "totalPatterns": 37528,
+    "totalCorrelations": 363260,
+    "totalForecasts": 533,
+    "totalADRs": 130,
+    "avgPatternsPerRepo": 75.2064128256513,
+    "avgCorrelationsPerPattern": 9.679705819654657
+  },
+  "merkleRoot": "2c95cb2cc37a9f761a3fffa790e1106661bcac6d9475e8454d23dd1b82a4b49b"
+}

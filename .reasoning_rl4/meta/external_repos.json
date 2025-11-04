@@ -1,0 +1,53 @@
+[
+  {
+    "name": "PAMI",
+    "url": "https://github.com/UdayLab/PAMI",
+    "role": "Analytical Layer - Frequent & sequential pattern mining",
+    "license": "MIT",
+    "layer": "Analytical",
+    "integration": "PatternLearningEngineV2",
+    "priority": 1
+  },
+  {
+    "name": "FP-Growth",
+    "url": "https://github.com/MK-ek11/Frequent-Pattern-Mining-FP-Tree",
+    "role": "Analytical Layer - High-volume frequent pattern mining (opt.)",
+    "license": "MIT",
+    "layer": "Analytical",
+    "integration": "PatternLearningEngineV2",
+    "priority": 4,
+    "optional": true,
+    "condition": "timelineCount > 10000"
+  },
+  {
+    "name": "Merlion",
+    "url": "https://github.com/salesforce/Merlion",
+    "role": "Reflective Layer - ML for time-series (forecasting, anomaly detection)",
+    "license": "Apache-2.0",
+    "layer": "Reflective",
+    "integration": "CorrelationEngineV2",
+    "priority": 2
+  },
+  {
+    "name": "HyperTS",
+    "url": "https://github.com/DataCanvasIO/HyperTS",
+    "role": "Forecast Layer - Time-series forecasting & anomaly detection",
+    "license": "Apache-2.0",
+    "layer": "Forecast",
+    "integration": "ForecastEngineV3",
+    "priority": 3
+  },
+  {
+    "name": "SPMF",
+    "url": "https://github.com/philippe-fournier-viger/spmf",
+    "role": "Structural Layer - Sequential pattern mining framework",
+    "license": "GPL-3.0",
+    "layer": "Structural",
+    "integration": "spmf_bridge.sh",
+    "priority": 5,
+    "optional": true,
+    "condition": "repos > 200",
+    "requires": "Java 11+"
+  }
+]
+

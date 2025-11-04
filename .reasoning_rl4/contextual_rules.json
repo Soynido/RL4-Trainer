@@ -1,0 +1,191 @@
+[
+  {
+    "id": "rule-other-feature→security",
+    "rule": "In other repos: feature → security (68%)",
+    "condition": {
+      "type": "other"
+    },
+    "correlation": {
+      "id": "feature→security",
+      "cause": "feature",
+      "effect": "security",
+      "strength": 0.682,
+      "lag": 1,
+      "samples": 4,
+      "confidence": 0.5,
+      "context": {
+        "type": "other",
+        "languages": [
+          "typescript"
+        ],
+        "hasTests": false,
+        "size": "small",
+        "activity": "high"
+      }
+    },
+    "confidence": 0.5,
+    "examples": []
+  },
+  {
+    "id": "rule-other-test→feature",
+    "rule": "In other repos: test → feature (67%)",
+    "condition": {
+      "type": "other"
+    },
+    "correlation": {
+      "id": "test→feature",
+      "cause": "test",
+      "effect": "feature",
+      "strength": 0.673,
+      "lag": 1,
+      "samples": 3,
+      "confidence": 0.5,
+      "context": {
+        "type": "other",
+        "languages": [
+          "typescript"
+        ],
+        "hasTests": false,
+        "size": "small",
+        "activity": "high"
+      }
+    },
+    "confidence": 0.5,
+    "examples": []
+  },
+  {
+    "id": "rule-other-feature→other",
+    "rule": "In other repos: feature → other (66%)",
+    "condition": {
+      "type": "other"
+    },
+    "correlation": {
+      "id": "feature→other",
+      "cause": "feature",
+      "effect": "other",
+      "strength": 0.664,
+      "lag": 1,
+      "samples": 2,
+      "confidence": 0.5,
+      "context": {
+        "type": "other",
+        "languages": [
+          "typescript"
+        ],
+        "hasTests": false,
+        "size": "small",
+        "activity": "high"
+      }
+    },
+    "confidence": 0.5,
+    "examples": []
+  },
+  {
+    "id": "rule-other-test→security",
+    "rule": "In other repos: test → security (66%)",
+    "condition": {
+      "type": "other"
+    },
+    "correlation": {
+      "id": "test→security",
+      "cause": "test",
+      "effect": "security",
+      "strength": 0.655,
+      "lag": 1,
+      "samples": 1,
+      "confidence": 0.5,
+      "context": {
+        "type": "other",
+        "languages": [
+          "typescript"
+        ],
+        "hasTests": false,
+        "size": "small",
+        "activity": "high"
+      }
+    },
+    "confidence": 0.5,
+    "examples": []
+  },
+  {
+    "id": "rule-other-test→performance",
+    "rule": "In other repos: test → performance (66%)",
+    "condition": {
+      "type": "other"
+    },
+    "correlation": {
+      "id": "test→performance",
+      "cause": "test",
+      "effect": "performance",
+      "strength": 0.655,
+      "lag": 1,
+      "samples": 1,
+      "confidence": 0.5,
+      "context": {
+        "type": "other",
+        "languages": [
+          "typescript"
+        ],
+        "hasTests": false,
+        "size": "small",
+        "activity": "high"
+      }
+    },
+    "confidence": 0.5,
+    "examples": []
+  },
+  {
+    "id": "rule-other-feature→test",
+    "rule": "In other repos: feature → test (62%)",
+    "condition": {
+      "type": "other"
+    },
+    "correlation": {
+      "id": "feature→test",
+      "cause": "feature",
+      "effect": "test",
+      "strength": 0.615,
+      "lag": 1,
+      "samples": 7,
+      "confidence": 0.5,
+      "context": {
+        "type": "other",
+        "languages": [
+          "typescript"
+        ],
+        "hasTests": false,
+        "size": "small",
+        "activity": "high"
+      }
+    },
+    "confidence": 0.5,
+    "examples": []
+  },
+  {
+    "id": "rule-other-test→documentation",
+    "rule": "In other repos: test → documentation (62%)",
+    "condition": {
+      "type": "other"
+    },
+    "correlation": {
+      "id": "test→documentation",
+      "cause": "test",
+      "effect": "documentation",
+      "strength": 0.615,
+      "lag": 1,
+      "samples": 7,
+      "confidence": 0.5,
+      "context": {
+        "type": "other",
+        "languages": [
+          "typescript"
+        ],
+        "hasTests": false,
+        "size": "small",
+        "activity": "high"
+      }
+    },
+    "confidence": 0.5,
+    "examples": []
+  }
+]
